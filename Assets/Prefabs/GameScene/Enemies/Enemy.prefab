@@ -164,7 +164,7 @@ MonoBehaviour:
   scoreValue: 10
   dropChance: 0.1
   powerUpPrefab: {fileID: 0}
-  damageFlashColor: {r: 1, g: 0, b: 0, a: 1}
+  damageFlashColor: {r: 0.2981131, g: 0, b: 0, a: 1}
   flashDuration: 0.1
 --- !u!195 &-7801069487770248054
 NavMeshAgent:
