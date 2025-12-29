@@ -30,6 +30,7 @@ Proje, modüler mimari yapısı ve genişletilebilir tasarımı ile hem oynanabi
 
 ---
 
+
 ## Özellikler
 
 ### Oyun Mekanikleri
@@ -37,6 +38,7 @@ Proje, modüler mimari yapısı ve genişletilebilir tasarımı ile hem oynanabi
 - **Dalga Sistemi** — Zorluk seviyesi artan düşman dalgaları
 - **Dinamik Zorluk** — Level bazlı hasar, spawn hızı ve düşman sayısı artışı
 - **Güç Artırıcılar** — Düşmanlardan düşen geçici buff'lar
+
 
 ### Teknik Özellikler
 - **Prosedürel Harita** — Runtime'da oluşturulan engeller ve NavMesh
@@ -81,6 +83,9 @@ Geniş açılı kılıç saldırıları ile çevresindeki düşmanları biçer. 
 
 **Avantajlar:** Yüksek alan hasarı, cooldown gerektirmeyen birincil saldırı  
 **Dezavantajlar:** Düşmanlara yaklaşma zorunluluğu
+<p align="center">
+<img width="743" height="415" alt="Screenshot 2025-12-25 111814" src="https://github.com/user-attachments/assets/3ea42bbc-55e6-4e87-921b-ca4f2201e10c" />
+</p>
 
 ---
 
@@ -92,6 +97,10 @@ Hızlı mermiler fırlatarak güvenli mesafeden savaşır. **Burst Fire** yetene
 **Avantajlar:** Güvenli mesafe, yüksek tek hedef hasarı  
 **Dezavantajlar:** Kalabalık düşman gruplarında zorlanma
 
+<p align="center">
+<img width="743" height="415" alt="Screenshot 2025-12-25 112756" src="https://github.com/user-attachments/assets/80d8ba55-9408-4cf1-8f4b-2e03e654ff23" />
+</p>
+
 ---
 
 ### Tuzakçı (Trapper)
@@ -101,6 +110,9 @@ Diken tuzakları ve patlayıcılar yerleştirerek alanı kontrol eder. `E` tuşu
 
 **Avantajlar:** Alan kontrolü, stratejik oyun  
 **Dezavantajlar:** Reaktif savaşta zayıf
+<p align="center">
+<img width="743" height="415" alt="Screenshot 2025-12-25 112923" src="https://github.com/user-attachments/assets/a87db2db-bb48-46eb-ad4a-d151dbc1b9d8" />
+</p>
 
 ---
 
@@ -207,18 +219,6 @@ Düşmanlar `NavMeshAgent` kullanarak oyuncuyu takip eder. `NavMesh.SamplePositi
 
 ---
 
-## Dokümantasyon
-
-Detaylı teknik dokümantasyon `Assets/Scripts/Documentation/` klasöründe bulunmaktadır:
-
-| Dosya | İçerik |
-|:---|:---|
-| `HackNSlash_Teknik_Dokuman.docx` | Özet teknik dokümantasyon |
-| `OYUN_DOKUMANTASYONU.docx` | Detaylı kod açıklamaları |
-| `OYUN_DOKUMANTASYONU.md` | Markdown formatı |
-
----
-
 ## Geliştirme Notları
 
 ### Yeni Karakter Ekleme
@@ -233,14 +233,3 @@ Detaylı teknik dokümantasyon `Assets/Scripts/Documentation/` klasöründe bulu
 2. `MapGenerator.CreateObstacle()` metoduna yeni tema case'i yazın
 3. Tema rengini `GetGroundColor()` metoduna ekleyin
 
----
-
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
-
----
-
-<p align="center">
-  <sub>Unity ile sevgiyle geliştirildi</sub>
-</p>
